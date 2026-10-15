@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oberflächenstrahltechnik Feußner | Sandstrahlen &amp; Entrosten in Vockenrod / Alsfeld</title>
+<meta name="description" content="Sandstrahlen, Glasperlenstrahlen, Entrosten und Entlacken in Antrifttal-Vockenrod bei Alsfeld. Fotos schicken, Angebot erhalten.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Oberflächenstrahltechnik Feußner">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0f172a">
+<meta name="format-detection" content="telephone=yes">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Oberflächenstrahltechnik Feußner","founder":"Thomas Feußner","telephone":"+49 6631 3337","email":"rfeussner@t-online.de","address":{"@type":"PostalAddress","streetAddress":"Seibelsdorfer Straße 16","postalCode":"36326","addressLocality":"Antrifttal OT Vockenrod","addressCountry":"DE"},"areaServed":["Alsfeld","Antrifttal","Vogelsbergkreis"]}
+</script>
+<!-- Tailwind per CDN reicht zum Start. Für den Dauerbetrieb besser lokal bauen (Tailwind CLI). -->
+<script src="https://cdn.tailwindcss.com/3.4.17"></script>
+<script>
+tailwind.config={theme:{extend:{colors:{steel:{800:'#1e293b',900:'#0f172a',950:'#020617'},amberAccent:{DEFAULT:'#f59e0b',hover:'#d97706'}}}}}
+</script>
+<style type="text/tailwindcss">
+@layer components{
+  .card{@apply bg-steel-900 border border-slate-800 rounded-2xl p-6}
+  .btn{@apply inline-block font-extrabold rounded-xl px-6 py-3.5 text-center transition-colors}
+  .inp{@apply w-full bg-steel-900 border border-slate-700 rounded-xl px-4 py-3 text-base text-white placeholder-slate-500 focus:outline-none focus:border-amberAccent}
+  .lbl{@apply block text-sm font-bold text-slate-200 mb-2}
+}
+body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;overflow-wrap:break-word}
+img,svg,video,canvas{max-width:100%}
+input,select,textarea,button{font:inherit}
+@media(max-width:640px){.btn{width:100%} header .btn{width:auto} h1{font-size:clamp(2.1rem,10vw,3.4rem)}}
+a:focus-visible,button:focus-visible,summary:focus-visible{outline:2px solid #f59e0b;outline-offset:2px}
+.hp{position:absolute;left:-9999px}
+details>summary{list-style:none;cursor:pointer}
+details>summary::-webkit-details-marker{display:none}
+details[open] .chev{transform:rotate(180deg)}
+</style>
+</head>
+<body class="bg-steel-950 text-slate-100 antialiased">
+
+<header class="sticky top-0 z-40 bg-steel-900/95 backdrop-blur border-b border-slate-800">
+  <div class="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
+    <a href="#" class="flex items-center gap-3">
+      <span class="w-10 h-10 rounded-xl bg-amberAccent text-steel-950 font-black flex items-center justify-center">OF</span>
+      <span class="leading-tight"><b class="block text-white">Feußner</b><span class="text-xs text-amberAccent">Oberflächenstrahltechnik</span></span>
+    </a>
+    <nav class="hidden md:flex gap-8 text-sm text-slate-300">
+      <a href="#leistungen" class="hover:text-amberAccent">Leistungen</a>
+      <a href="#anfrage" class="hover:text-amberAccent">Angebot anfragen</a>
+      <a href="#faq" class="hover:text-amberAccent">Fragen</a>
+      <a href="#kontakt" class="hover:text-amberAccent">Kontakt</a>
+    </nav>
+    <a href="tel:+4966313337" class="hidden sm:inline-block btn bg-steel-800 border border-slate-700 text-white !py-2 text-sm">(06631) 3337</a>
+    <button id="menu-btn" aria-label="Menü öffnen" class="md:hidden p-2 text-slate-200">
+      <svg class="w-7 h-7" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+  </div>
+  <div id="drawer" class="hidden md:hidden border-t border-slate-800 px-4 py-4 space-y-1 bg-steel-900">
+    <a href="#leistungen" class="block py-3 text-lg">Leistungen</a>
+    <a href="#anfrage" class="block py-3 text-lg">Angebot anfragen</a>
+    <a href="#faq" class="block py-3 text-lg">Fragen</a>
+    <a href="#kontakt" class="block py-3 text-lg">Kontakt</a>
+    <a href="tel:+4966313337" class="btn block bg-amberAccent text-steel-950 mt-2">Jetzt anrufen</a>
+  </div>
+</header>
+
+<main>
+<section class="py-16 lg:py-24 border-b border-slate-800 bg-gradient-to-b from-steel-900 to-steel-950">
+  <div class="max-w-6xl mx-auto px-4">
+    <p class="text-sm text-amberAccent font-semibold mb-3">Fachbetrieb in Antrifttal OT Vockenrod, Raum Alsfeld</p>
+    <h1 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight max-w-3xl leading-tight">Rost, Lack und Zunder weg. Sauber gestrahlt.</h1>
+    <p class="mt-5 text-lg text-slate-300 max-w-2xl">Sandstrahlen, Glasperlenstrahlen, Entrosten und Entlacken für Felgen, KFZ-Teile, Landmaschinen, Stahlbau und Bausubstanz im Vogelsbergkreis.</p>
+    <div class="mt-8 flex flex-col sm:flex-row gap-3">
+      <a href="#anfrage" class="btn bg-amberAccent hover:bg-amberAccent-hover text-steel-950">Foto schicken, Angebot erhalten</a>
+      <a href="tel:+4966313337" class="btn bg-steel-800 border border-slate-700 text-white">Lieber anrufen</a>
+    </div>
+    <p class="mt-6 text-sm text-slate-400">Einzelstücke und Serien. Anlieferung nach Terminabsprache.</p>
+  </div>
+</section>
+
+<section id="leistungen" class="py-16">
+  <div class="max-w-6xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold">Leistungen</h2>
+    <p class="mt-2 text-slate-400 max-w-2xl">Für jede Oberfläche das passende Strahlmittel: von grobem Rost bis zu empfindlichem Aluminium.</p>
+    <div class="mt-10 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+      <article class="card"><h3 class="font-bold text-lg">Sandstrahlen</h3><p class="mt-2 text-slate-400 text-sm">Entfernt tiefsitzenden Rost, Zunder und alte Lackschichten von Stahl und Eisen.</p></article>
+      <article class="card"><h3 class="font-bold text-lg">Glasperlenstrahlen</h3><p class="mt-2 text-slate-400 text-sm">Schonend für Edelstahl, Aluminium und Buntmetalle. Ergibt eine gleichmäßig seidenmatte Oberfläche.</p></article>
+      <article class="card"><h3 class="font-bold text-lg">Entrosten und Vorbehandeln</h3><p class="mt-2 text-slate-400 text-sm">Blanke Flächen als Grundlage für Lackierung oder Pulverbeschichtung.</p></article>
+      <article class="card"><h3 class="font-bold text-lg">Felgen, KFZ-Teile, Oldtimer</h3><p class="mt-2 text-slate-400 text-sm">Alufelgen, Motorblöcke, Fahrwerks- und Karosserieteile, Restaurationsteile.</p></article>
+      <article class="card"><h3 class="font-bold text-lg">Landwirtschaft und Industrie</h3><p class="mt-2 text-slate-400 text-sm">Landmaschinen, Anbaugeräte, Werkzeuge, Träger und Industriebauteile.</p></article>
+      <article class="card"><h3 class="font-bold text-lg">Holz, Fassade, Naturstein</h3><p class="mt-2 text-slate-400 text-sm">Schonende Freilegung von Balken, Türen, Toren, Naturstein und Mauerwerk.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="anfrage" class="py-16 bg-steel-900 border-y border-slate-800">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold">Angebot anfragen</h2>
+    <p class="mt-2 text-slate-400">Mit zwei, drei Fotos können wir Ihr Teil meist direkt einschätzen. Die Fotos werden vor dem Versand verkleinert und zusammen mit Ihrer Anfrage über FormSubmit per E-Mail weitergeleitet.</p>
+
+    <div id="thanks" class="hidden mt-6 rounded-2xl border border-emerald-500/50 bg-emerald-950/70 p-5">
+      <b class="text-white">Vielen Dank, Ihre Anfrage ist bei uns angekommen.</b>
+      <p class="text-sm text-emerald-200 mt-1">Wir melden uns so bald wie möglich bei Ihnen.</p>
+    </div>
+
+    <form id="form" class="mt-8 space-y-7" method="POST" enctype="multipart/form-data" action="https://formsubmit.co/rfeussner@t-online.de">
+      <input type="hidden" name="_subject" value="Neue Anfrage über die Website">
+      <input type="hidden" name="_template" value="table">
+      <input type="hidden" name="_next" id="next" value="">
+      <input type="hidden" name="Leistungen" id="svc-all" value="">
+      <input type="text" name="_honey" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+
+      <fieldset>
+        <legend class="lbl">1. Was soll gemacht werden? *</legend>
+        <div class="grid sm:grid-cols-2 gap-3">
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Sandstrahlen" class="w-5 h-5 accent-amber-500"> Sandstrahlen</label>
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Glasperlenstrahlen" class="w-5 h-5 accent-amber-500"> Glasperlenstrahlen</label>
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Entrosten" class="w-5 h-5 accent-amber-500"> Entrosten</label>
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Entlacken" class="w-5 h-5 accent-amber-500"> Entlacken</label>
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Felgenaufarbeitung" class="w-5 h-5 accent-amber-500"> Felgenaufarbeitung</label>
+          <label class="flex items-center gap-3 card !p-4 cursor-pointer"><input type="checkbox" name="svc" value="Sonstiges" class="w-5 h-5 accent-amber-500"> Sonstiges</label>
+        </div>
+        <p id="svc-err" role="alert" class="hidden mt-2 text-sm text-red-400">Bitte wählen Sie mindestens eine Leistung.</p>
+      </fieldset>
+
+      <div class="grid sm:grid-cols-2 gap-5">
+        <div><label class="lbl" for="mat">Material *</label>
+          <select id="mat" name="Material" required class="inp"><option>Stahl / Eisen</option><option>Aluminium</option><option>Edelstahl</option><option>Gusseisen</option><option>Holz / Bausubstanz</option><option>Sonstiges</option></select></div>
+        <div><label class="lbl" for="zeit">Zeitrahmen *</label>
+          <select id="zeit" name="Zeitrahmen" required class="inp"><option>Normal</option><option>Dringend (wenige Tage)</option><option>Flexibel, nach Absprache</option></select></div>
+      </div>
+      <div><label class="lbl" for="mass">Größe und Stückzahl *</label>
+        <input id="mass" name="Groesse und Stueckzahl" required class="inp" placeholder="z. B. 4 Alufelgen 18 Zoll oder 1 Metalltor 2 x 2 m"></div>
+      <div><label class="lbl" for="msg">Zustand und Wünsche</label>
+        <textarea id="msg" name="Beschreibung" rows="3" class="inp" placeholder="z. B. stark verrostet, pulverbeschichtet, soll danach lackiert werden"></textarea></div>
+
+      <div>
+        <label class="lbl" for="photos">Fotos (bis zu 5 Bilder, insgesamt max. 9 MB)</label>
+        <input id="photos" name="attachment[]" type="file" accept="image/jpeg,image/png,image/webp,image/gif" multiple class="block w-full text-sm text-slate-300 file:mr-4 file:rounded-xl file:border-0 file:bg-amberAccent file:px-5 file:py-3 file:font-bold file:text-steel-950">
+        <div id="prev" class="flex flex-wrap gap-2 mt-3"></div>
+        <p id="photo-msg" role="status" aria-live="polite" class="text-sm text-slate-400 mt-2"></p>
+      </div>
+
+      <div class="grid sm:grid-cols-3 gap-5 pt-5 border-t border-slate-800">
+        <div><label class="lbl" for="n">Name / Firma *</label><input id="n" name="Name" required autocomplete="name" class="inp"></div>
+        <div><label class="lbl" for="e">E-Mail *</label><input id="e" name="email" type="email" required autocomplete="email" class="inp"></div>
+        <div><label class="lbl" for="t">Telefon</label><input id="t" name="Telefon" type="tel" autocomplete="tel" class="inp"></div>
+      </div>
+      <p class="text-xs text-slate-500">Mit dem Absenden stimmen Sie der Verarbeitung Ihrer Angaben zur Bearbeitung der Anfrage zu. Details in der <a href="#datenschutz" class="underline">Datenschutzerklärung</a>.</p>
+
+      <div class="flex flex-col-reverse sm:flex-row sm:items-center sm:justify-between gap-4">
+        <div><button type="button" id="clear" class="text-sm text-slate-400 hover:text-red-400 underline">Formular leeren</button>
+          <span id="draft" class="block text-xs text-slate-500 mt-1"></span></div>
+        <button type="submit" class="btn bg-amberAccent hover:bg-amberAccent-hover text-steel-950">Anfrage abschicken</button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="faq" class="py-16">
+  <div class="max-w-3xl mx-auto px-4">
+    <h2 class="text-3xl font-extrabold">Häufige Fragen</h2>
+    <div class="mt-8 space-y-3">
+      <details class="card !p-0"><summary class="flex justify-between items-center p-5 font-bold">Welche Materialien können gestrahlt werden?<svg class="chev w-5 h-5 text-amberAccent shrink-0 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></summary><p class="px-5 pb-5 text-slate-400 text-sm">Stahl, Eisen, Edelstahl, Aluminium, Gusseisen sowie Holz und Bausubstanz. Das Strahlmittel wählen wir passend zum Werkstoff.</p></details>
+      <details class="card !p-0"><summary class="flex justify-between items-center p-5 font-bold">Wie lange dauert die Bearbeitung?<svg class="chev w-5 h-5 text-amberAccent shrink-0 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></summary><p class="px-5 pb-5 text-slate-400 text-sm">Das hängt von Umfang und Zustand der Teile ab. Im Angebot nennen wir Ihnen einen konkreten Termin. Eilige Aufträge bitte im Formular oder telefonisch angeben.</p></details>
+      <details class="card !p-0"><summary class="flex justify-between items-center p-5 font-bold">Was kostet das?<svg class="chev w-5 h-5 text-amberAccent shrink-0 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></summary><p class="px-5 pb-5 text-slate-400 text-sm">Der Preis richtet sich nach Größe, Zustand und Verfahren. Schicken Sie uns Fotos über das Formular, dann erstellen wir Ihnen ein Angebot.</p></details>
+      <details class="card !p-0"><summary class="flex justify-between items-center p-5 font-bold">Wo ist der Betrieb, wie liefere ich an?<svg class="chev w-5 h-5 text-amberAccent shrink-0 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 9l-7 7-7-7"/></svg></summary><p class="px-5 pb-5 text-slate-400 text-sm">Seibelsdorfer Straße 16, 36326 Antrifttal OT Vockenrod, bei Alsfeld. Bitte liefern Sie nach Terminabsprache an.</p></details>
+    </div>
+  </div>
+</section>
+
+<section id="kontakt" class="py-16 bg-steel-900 border-t border-slate-800">
+  <div class="max-w-6xl mx-auto px-4 grid gap-6 md:grid-cols-3">
+    <div class="card !bg-steel-950"><h3 class="font-bold text-white">Anschrift</h3><p class="mt-2 text-sm text-slate-300">Oberflächenstrahltechnik Feußner<br>Inh. Thomas Feußner<br>Seibelsdorfer Straße 16<br>36326 Antrifttal OT Vockenrod</p>
+      <a class="mt-3 inline-block text-amberAccent underline text-sm" target="_blank" rel="noopener" href="https://maps.google.com/?q=Seibelsdorfer+Straße+16,+36326+Antrifttal">In Google Maps öffnen</a></div>
+    <div class="card !bg-steel-950"><h3 class="font-bold text-white">Telefon</h3><p class="mt-2 text-sm text-slate-300">Festnetz: <a class="text-amberAccent font-bold" href="tel:+4966313337">(06631) 3337</a><br>Mobil: <a class="text-amberAccent font-bold" href="tel:+491736721621">0173 6721621</a></p></div>
+    <div class="card !bg-steel-950"><h3 class="font-bold text-white">E-Mail</h3><p class="mt-2 text-sm"><a class="text-amberAccent font-bold" href="mailto:rfeussner@t-online.de">rfeussner@t-online.de</a></p></div>
+  </div>
+</section>
+
+<section id="impressum" class="py-12 border-t border-slate-800">
+  <div class="max-w-3xl mx-auto px-4 text-sm text-slate-400 space-y-2">
+    <h2 class="text-xl font-bold text-white">Impressum</h2>
+    <p>Oberflächenstrahltechnik Feußner, Inhaber: Thomas Feußner, Seibelsdorfer Straße 16, 36326 Antrifttal OT Vockenrod</p>
+    <p>Telefon: (06631) 3337, E-Mail: rfeussner@t-online.de</p>
+    <!-- PRÜFEN: Falls vorhanden, USt-IdNr. (§ 27a UStG) und weitere Pflichtangaben ergänzen. -->
+  </div>
+</section>
+
+<section id="datenschutz" class="pb-14">
+  <div class="max-w-3xl mx-auto px-4 text-sm text-slate-400 space-y-2">
+    <h2 class="text-xl font-bold text-white">Datenschutz</h2>
+    <p><b class="text-slate-200">Verantwortlicher:</b> siehe Impressum.</p>
+    <p><b class="text-slate-200">Anfrageformular:</b> Beim Absenden werden Ihre Angaben und ausgewählten Fotos an FormSubmit (formsubmit.co) übertragen und von dort an die angegebene Betriebs-E-Mail weitergeleitet. Prüfen Sie vor dem Livegang die Datenschutzbedingungen und Auftragsverarbeitung des Dienstes. Der Betreiber dieser Website kann die Übertragung durch den Drittanbieter nicht allein durch diesen Hinweis rechtlich abschließend dokumentieren.</p>
+    <p><b class="text-slate-200">Entwurf im Browser:</b> Ihre Formulartexte und Kontaktdaten werden im lokalen Speicher des verwendeten Browsers als Entwurf abgelegt. Sie werden dadurch nicht automatisch an den Betrieb gesendet. Auf gemeinsam genutzten Geräten sollten Sie „Formular leeren“ verwenden. Ausgewählte Dateien werden nicht im Entwurf gespeichert.</p>
+    <p><b class="text-slate-200">Hosting und Skripte:</b> Die Seite lädt Tailwind CSS von cdn.tailwindcss.com. Dabei kann der CDN-Anbieter technische Zugriffsdaten wie die IP-Adresse erhalten. Für den produktiven Betrieb empfiehlt sich, CSS lokal bereitzustellen und die Angaben zum tatsächlichen Hosting-Anbieter zu ergänzen.</p>
+    <p><b class="text-slate-200">Ihre Rechte:</b> Auskunft, Berichtigung, Löschung, Einschränkung, Widerspruch und Beschwerde bei einer Aufsichtsbehörde.</p>
+    <!-- PRÜFEN: Text mit einem Datenschutz-Generator abgleichen und an den tatsächlichen Hoster anpassen. -->
+  </div>
+</section>
+</main>
+
+<footer class="border-t border-slate-800 py-8 text-sm text-slate-500">
+  <div class="max-w-6xl mx-auto px-4 flex flex-col sm:flex-row justify-between gap-3">
+    <span>&copy; 2026 Oberflächenstrahltechnik Feußner</span>
+    <span class="flex gap-5"><a href="#impressum" class="hover:text-amberAccent">Impressum</a><a href="#datenschutz" class="hover:text-amberAccent">Datenschutz</a></span>
+  </div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+  const $ = (selector) => document.querySelector(selector);
+  const form = $('#form');
+  if (!form) return;
+  const KEY = 'feussner_draft_v3';
+  const drawer = $('#drawer');
+  const menuButton = $('#menu-btn');
+  if (drawer && menuButton) {
+    menuButton.setAttribute('aria-expanded', 'false');
+    menuButton.addEventListener('click', () => {
+      const isOpen = !drawer.classList.contains('hidden');
+      drawer.classList.toggle('hidden');
+      menuButton.setAttribute('aria-expanded', String(!isOpen));
+      menuButton.setAttribute('aria-label', isOpen ? 'Menü öffnen' : 'Menü schließen');
+    });
+    drawer.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      drawer.classList.add('hidden');
+      menuButton.setAttribute('aria-expanded', 'false');
+      menuButton.setAttribute('aria-label', 'Menü öffnen');
+    }));
+  }
+
+  let saveTimer;
+  const fields = () => [...form.querySelectorAll('input,select,textarea')]
+    .filter(el => el.name && !['file','hidden'].includes(el.type) && el.name !== '_honey');
+  function saveDraft() {
+    clearTimeout(saveTimer);
+    saveTimer = setTimeout(() => {
+      try {
+        const data = {};
+        fields().forEach(el => {
+          if (el.type === 'checkbox') {
+            if (el.checked) (data[el.name] ||= []).push(el.value);
+          } else data[el.name] = [el.value];
+        });
+        localStorage.setItem(KEY, JSON.stringify(data));
+        const status = $('#draft'); if (status) status.textContent = 'Entwurf auf diesem Gerät gespeichert';
+      } catch (_) {
+        const status = $('#draft'); if (status) status.textContent = 'Lokales Speichern ist in diesem Browser nicht verfügbar';
+      }
+    }, 500);
+  }
+  function restoreDraft() {
+    try {
+      const data = JSON.parse(localStorage.getItem(KEY) || 'null');
+      if (!data || typeof data !== 'object') return;
+      fields().forEach(el => {
+        if (!(el.name in data)) return;
+        if (el.type === 'checkbox') el.checked = Array.isArray(data[el.name]) && data[el.name].includes(el.value);
+        else if (Array.isArray(data[el.name])) el.value = data[el.name][0] ?? '';
+      });
+    } catch (_) {}
+  }
+  form.addEventListener('input', saveDraft);
+  form.addEventListener('change', saveDraft);
+  const clearButton = $('#clear');
+  if (clearButton) clearButton.addEventListener('click', () => {
+    form.reset();
+    const prev = $('#prev'); if (prev) prev.replaceChildren();
+    const msg = $('#photo-msg'); if (msg) msg.textContent = '';
+    const err = $('#svc-err'); if (err) err.classList.add('hidden');
+    try { localStorage.removeItem(KEY); } catch (_) {}
+    const status = $('#draft'); if (status) status.textContent = 'Entwurf gelöscht';
+  });
+  restoreDraft();
+
+  const photos = $('#photos');
+  const MAX_FILES = 5, MAX_TOTAL = 9 * 1024 * 1024, MAX_EDGE = 1600;
+  function shrink(file) {
+    if (!file.type.startsWith('image/')) return Promise.resolve(file);
+    return new Promise(resolve => {
+      const url = URL.createObjectURL(file);
+      const img = new Image();
+      img.onload = () => {
+        try {
+          const scale = Math.min(1, MAX_EDGE / Math.max(img.naturalWidth, img.naturalHeight));
+          const canvas = document.createElement('canvas');
+          canvas.width = Math.max(1, Math.round(img.naturalWidth * scale));
+          canvas.height = Math.max(1, Math.round(img.naturalHeight * scale));
+          const ctx = canvas.getContext('2d');
+          if (!ctx) { URL.revokeObjectURL(url); resolve(file); return; }
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          canvas.toBlob(blob => {
+            URL.revokeObjectURL(url);
+            resolve(blob ? new File([blob], file.name.replace(/\.[^.]+$/, '') + '.jpg', {type:'image/jpeg', lastModified:Date.now()}) : file);
+          }, 'image/jpeg', 0.82);
+        } catch (_) { URL.revokeObjectURL(url); resolve(file); }
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); resolve(file); };
+      img.src = url;
+    });
+  }
+  if (photos) photos.addEventListener('change', async () => {
+    const message = $('#photo-msg'), preview = $('#prev');
+    const chosen = [...photos.files];
+    if (chosen.length > MAX_FILES) {
+      photos.value = '';
+      if (preview) preview.replaceChildren();
+      if (message) message.textContent = `Bitte höchstens ${MAX_FILES} Bilder auswählen.`;
+      return;
+    }
+    if (chosen.some(f => !f.type.startsWith('image/'))) {
+      photos.value = '';
+      if (message) message.textContent = 'Bitte ausschließlich Bilddateien auswählen.';
+      return;
+    }
+    const dataTransfer = new DataTransfer();
+    let total = 0;
+    if (preview) preview.replaceChildren();
+    for (const original of chosen) {
+      const file = await shrink(original);
+      total += file.size;
+      dataTransfer.items.add(file);
+      if (preview) {
+        const image = new Image();
+        image.alt = `Vorschau: ${file.name}`;
+        image.className = 'h-16 w-16 object-cover rounded-lg border border-slate-700';
+        const url = URL.createObjectURL(file);
+        image.src = url;
+        image.addEventListener('load', () => URL.revokeObjectURL(url), {once:true});
+        preview.append(image);
+      }
+    }
+    photos.files = dataTransfer.files;
+    const mb = (total / 1048576).toFixed(1);
+    if (message) message.textContent = total > MAX_TOTAL
+      ? `Die verkleinerten Bilder sind ${mb} MB groß. Bitte wählen Sie weniger oder kleinere Bilder.`
+      : `${chosen.length} Bild(er) ausgewählt, insgesamt ${mb} MB.`;
+  });
+
+  form.addEventListener('submit', event => {
+    const selected = [...form.querySelectorAll('input[name="svc"]:checked')];
+    const error = $('#svc-err');
+    if (!selected.length) {
+      event.preventDefault();
+      if (error) { error.classList.remove('hidden'); error.scrollIntoView({behavior:'smooth',block:'center'}); }
+      return;
+    }
+    if (error) error.classList.add('hidden');
+    const total = photos ? [...photos.files].reduce((sum, file) => sum + file.size, 0) : 0;
+    if (photos && photos.files.length > MAX_FILES) {
+      event.preventDefault();
+      if ($('#photo-msg')) $('#photo-msg').textContent = `Bitte höchstens ${MAX_FILES} Bilder auswählen.`;
+      return;
+    }
+    if (total > MAX_TOTAL) {
+      event.preventDefault();
+      if ($('#photo-msg')) { $('#photo-msg').textContent = 'Die Bilder sind zusammen zu groß. Bitte wählen Sie weniger oder kleinere Bilder.'; $('#photo-msg').scrollIntoView({behavior:'smooth',block:'center'}); }
+      return;
+    }
+    const bundled = $('#svc-all'); if (bundled) bundled.value = selected.map(el => el.value).join(', ');
+    const next = $('#next');
+    if (next && location.protocol.startsWith('http')) next.value = location.origin + location.pathname + '?danke=1#anfrage';
+    // Das Formular wird regulär an FormSubmit übertragen; Erfolg erst nach Rückleitung anzeigen.
+  });
+
+  if (new URLSearchParams(location.search).get('danke') === '1') {
+    const thanks = $('#thanks'); if (thanks) { thanks.classList.remove('hidden'); thanks.setAttribute('tabindex','-1'); thanks.focus(); }
+    try { localStorage.removeItem(KEY); } catch (_) {}
+    form.reset();
+    const preview = $('#prev'); if (preview) preview.replaceChildren();
+    const msg = $('#photo-msg'); if (msg) msg.textContent = '';
+    history.replaceState(null, '', location.pathname + '#anfrage');
+  }
+  if ('serviceWorker' in navigator && /^https?:$/.test(location.protocol)) {
+    navigator.serviceWorker.register('./sw.js').catch(() => {});
+  }
+})();
+</script>
+</body>
+</html>
