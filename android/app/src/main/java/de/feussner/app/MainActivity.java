@@ -13,7 +13,7 @@ import android.webkit.WebSettings;
 
 public class MainActivity extends Activity {
     // Change this if your live website uses a different HTTPS address.
-    private static final String WEBSITE_URL = "https://totalstoned.github.io/Feussner-/";
+    private static final String WEBSITE_URL = "https://totalstoned.github.io/Feussner/";
     private WebView webView;
 
     @Override
